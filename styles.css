@@ -1,0 +1,930 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+   
+    max-width: 100%;
+   
+}
+
+
+.navbar {
+    position: fixed;
+    height: 80px;
+    background-color: white;
+    z-index: 100;
+    cursor: pointer;
+    width: 100%;
+ 
+}
+
+
+.main {
+    position: relative;
+    font-family: Poppins, sans-serif;
+    display: flex;
+    text-align: justify;
+    justify-content:space-between;
+    overflow: hidden;
+}
+
+
+.logo {
+    position: absolute;
+    padding: 20px;
+}
+
+
+.main img {
+    position: absolute;
+    width: 100%;
+    margin-left: 30px;
+    top: 20px;
+}
+
+
+.main ul {
+    margin-left: 350px;
+
+
+}
+
+
+.main ul li {
+    list-style-type: none;
+    display:inline-block;
+    font-size: 15px;
+    margin-left: 40px;
+    padding-top: 30px;
+    text-align: center;
+   
+}
+.main li a{
+        text-decoration: none;
+        cursor: pointer;
+       
+}
+
+
+.btn {
+    border:none;
+    width:  140px;
+    margin-left: 33px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-radius: 38px;
+    cursor: pointer;
+}
+
+
+.btn:hover {
+    background-color: #7ee97e;
+    color: black;
+}
+
+
+.section1 {
+    position: relative;
+    height: 700px;
+   
+}
+
+
+.start {
+    position: absolute;
+    top: 200px;
+    left:70px;
+}
+
+
+.start h1 {
+    font-family: Poppins ,sans-serif;
+    font-size: 52px;
+    left: 500px;
+    top: 600px;
+    color: rgb(238, 146, 207);    
+}
+
+
+.start p {
+    font-family: Poppins ,sans-serif;
+    font-size: 22px;
+    color: rgb(34, 31, 31);
+    left: 500px;
+    top: 600px;
+    line-height: 1.7;
+
+
+}
+
+
+.button {
+    border:none;
+    width:  150px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-radius: 38px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #7ee97e;
+    color: black;
+}
+
+
+.fun {
+    position: absolute;
+    left: 830px;
+    top: 160px;
+}
+
+
+.fun img {
+    border-radius: 20px;
+}
+
+
+
+
+.section2 {
+    position: relative;
+    width: 1200px;
+    height: 50px;
+    top: 5px;
+    left: 70px;
+   
+}
+.advert {
+    position: absoulte;
+    left: 180px;
+    top: 1px;
+    width:100%;
+    overflow: hidden;
+}
+
+
+span {
+    margin-left: 40px;
+    overflow: hidden;
+
+
+}
+
+
+.section3 {
+    position: relative;
+    top: 140px;
+    height: 640px;
+   
+}
+
+
+
+
+.studio img {
+    position: absolute;
+    left: 70px;
+   
+}
+
+
+.studio image2 {
+    position: absolute;
+    padding-top: 90px;
+   
+}
+
+
+.studio_note {
+    position: absolute;
+    top: 10px;
+    left: 940px;
+}
+
+
+.studio_note h1 {
+    font-family: Poppins ,sans-serif;
+    font-size: 38px;
+    line-height: 1.3;
+
+
+}
+
+
+.studio p {
+    left: 500px;
+    font-family: Poppins ,sans-serif;
+    font-size: 19px;
+    color: rgb(34, 31, 31);
+    top: 600px;
+    line-height: 1.7;
+}
+
+
+#btn {
+    border:none;
+    width:  200px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-radius: 38px;
+    cursor: pointer;
+}
+
+
+
+
+#btn:hover , #button:hover, .button1:hover ,.button2:hover  {
+    background-color: #7ee97e;
+    color: black;
+}
+
+
+
+
+.section4 {
+    position: relative;
+    top: 170px;
+    height: 550px;
+    overflow: hidden;
+}
+
+
+
+
+.automation img {
+    position: absolute;
+    left: 630px;
+}
+
+
+.automation_note {
+    position: absolute;
+    top: 10px;
+    left: 70px;
+}
+
+
+.automation_note h1 {
+    font-family: Poppins ,sans-serif;
+    font-size: 38px;
+    line-height: 1.3;
+
+
+}
+
+
+.automation_note p {
+    left: 500px;
+    font-family: Poppins ,sans-serif;
+    font-size: 19px;
+    color: rgb(34, 31, 31);
+    top: 600px;
+    line-height: 1.7;
+}
+
+
+
+
+.section5 {
+    position: relative;
+    top: 170px;
+    height: 740px;
+    overflow: hidden;
+}
+
+
+
+
+.playlists img {
+    position: absolute;
+    left: 410px;
+}
+
+
+.playlist_note1 {
+    position: absolute;
+    top: 150px;
+    left: 70px;
+}
+
+
+.playlist_note1 h1 {
+    font-family: Poppins ,sans-serif;
+    font-size: 38px;
+    line-height: 1.3;
+
+
+}
+
+
+.playlist_note1 p {
+    left: 500px;
+    font-family: Poppins ,sans-serif;
+    font-size: 19px;
+    color: rgb(34, 31, 31);
+    top: 600px;
+    line-height: 1.7;
+}
+
+
+.playlist_note2 {
+    position: absolute;
+    top: 70px;
+    left: 950px;
+}
+
+
+.playlist_note2 h1 {
+    font-family: Poppins-Medium;
+    font-size: 38px;
+    font-weight: lighter;
+    line-height: 1.3;  
+
+
+}
+
+
+.playlist_note2 p {
+    left: 500px;
+    font-family: Poppins-Medium;
+    font-size: 20px;
+    color: rgb(34, 31, 31);
+    top: 600px;
+    line-height: 1.4;
+}
+
+
+.section6 {
+    position: relative;
+    font-family:  Poppins-Medium;;
+    top: 280px;
+    height: 670px;
+    overflow: hidden;  
+}
+
+
+.icecast_note {
+    position: absolute;
+    top: 10px;
+    left: 70px;
+}
+
+
+.icecast_note h1 {
+    font-family: Poppins ,sans-serif;
+    font-size: 40px;
+    line-height: 1.3;
+
+
+}
+
+
+.icecast_note p {
+    left: 500px;
+    font-family: Poppins ,sans-serif;
+    font-size: 17px;
+    color: rgb(34, 31, 31);
+    top: 600px;
+    line-height: 1.7;
+}
+
+
+.icecast img {
+    position: absolute;
+    top: 70px;
+    left: 560px;
+}
+
+
+
+
+.section7 {
+    position: relative;
+    top: 260px;
+    height: 800;
+   
+}
+
+
+.analytics img {
+    position: absolute;
+    left: 70px;
+}
+
+
+.analytics_note {
+    position: absolute;
+    font-family: Poppins, sans-serif;
+    top: 10px;
+    left: 830px;
+}
+
+
+.analytics_note h1 {
+    font-size: 38px;
+    line-height: 1.3;
+
+
+}
+
+
+.analytics_note p {
+    font-family: Poppins ,sans-serif;
+    font-size: 17px;
+    color: rgb(34, 31, 31);
+    line-height: 1.7;
+}
+
+
+
+
+.section8 {
+    position: relative;
+    top: 800px;
+    height: 750px;
+}
+
+
+.connect {
+        position: absolute;
+        top: 20px;
+        height: 700px;
+        left: 260px;
+        text-align: center;
+ }
+   
+.connect h1 {
+        font-size: 45px;
+        font-weight: 2px;
+        color: rgb(32, 28, 28);
+        line-height: 1.3;      
+}
+   
+.connect p {
+        font-family: Poppins-Medium;
+        font-size: 20px;
+        font-weight: 2px;
+        color: rgb(83, 78, 78);
+        line-height: 1.7;
+}
+
+
+.solutions{
+    position: absolute;
+    top: 170px;
+    left:70px;
+    overflow: hidden;
+}
+
+
+
+
+#button {
+    position: absolute;
+    top: 670px;
+    left:600px;
+    border: none;
+    width:  200px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-radius: 38px;
+    cursor: pointer;
+}
+
+
+
+
+.section9 {
+    position: relative;
+    top: 870px;
+    height: 670px;
+}
+
+
+.say h1 {
+    text-align: center;
+    font-size: 40px;    
+}
+
+
+.user1 {
+    position: absolute;
+    top: 120px;
+    left: 90px;
+    display: block;
+    border: 20px;
+    background-color: white;
+    width: 550px;
+    height: 500px;
+    border-radius: 15px;
+    padding-top: 40px;
+    font-size: 18px;
+    box-shadow: rgba(58, 56, 56, 0.25) 0px 8px 16px;
+    cursor: pointer;
+}
+ 
+.Prof img{
+    position: absolute;
+    left: 30px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+
+.border {
+    border-radius: 50%;
+  }
+
+
+
+
+.Prof_note{
+    font-family: Poppins;
+    position:absolute;
+    top: 170px;
+    left: 30px;  
+}
+
+
+.Prof_note h2 ,.Grace_note h2 {
+    font-size: 25px;
+    font-weight: light;
+    line-height: 1.9;    
+}
+
+
+.Prof_note p , .Grace_note p {
+    font-size: 16px;
+    font-weight: light;
+    line-height: 1.9;
+}
+
+
+.pilot {
+    margin-left: 370px;
+}
+
+
+.user2 {
+    position: absolute;
+    top: 120px;
+    left: 700px;
+    display: block;
+    border: 20px;
+    background-color: white;
+    width: 550px;
+    height: 500px;
+    border-radius: 15px;
+    padding-top: 40px;
+    font-size: 18px;
+    box-shadow: rgba(126, 122, 122, 0.25) 0px 8px 16px;
+    cursor: pointer;    
+}
+
+
+.Grace img{
+    position: absolute;
+    left: 30px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+
+.Grace_note{
+    font-family: Poppins;
+    position:absolute;
+    top: 170px;
+    left: 30px;  
+}
+
+
+.button1 {
+    position: absolute;
+    top: 580px;
+    border: none;
+    width:  250px;
+    right: 450px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-radius: 38px;
+    cursor: pointer;
+}
+
+
+.section10{
+    position: relative;
+    top: 1110px;
+    height:700px;
+}
+
+
+.team img {
+    position: absolute;
+    left: 70px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.team_note {
+    position: absolute;
+    font-family: Poppins-Medium;
+    top: 10px;
+    left: 630px;
+}
+
+
+.team_note h1 {
+    font-size: 40px;
+    line-height: 1.3;
+
+
+}
+
+
+.team_note p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+
+
+.button2 {
+    border: none;
+    width:  250px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-radius: 38px;
+    cursor: pointer;
+}
+
+
+
+
+.section11{
+    position: relative;
+    top:900px;
+    height:700px;
+}
+
+
+
+
+.create {
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    display: block;
+    border: 20px;
+    background-color: rgb(105, 237, 134);
+    width: 1200px;
+    height: 350px;
+    border-radius: 15px;
+    padding-top: 40px;
+    font-size: 18px;
+    box-shadow: rgba(30, 31, 30, 0.25) 8px 8px 20px 8px;
+    cursor: pointer;  
+  }
+
+
+  .create_note {
+    position: absolute;
+    font-family: Poppins-Medium;
+    top: 70px;
+    text-align: center;
+    left: 320px;
+}
+
+
+.create_note h1 {
+    font-size: 40px;
+    line-height: 1.3;
+
+
+}
+
+
+.create_note p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+
+.footer {
+    position: relative;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#5c5555;
+    top:740px;
+    height: 500px;  
+}
+
+
+.line {
+    position: absolute;
+    height: 0.2px;
+    width: 1390px;
+    top: 10px;
+    background-color: #c5baba;
+}
+.radio {
+    position:absolute;
+    width: 200px;
+    top: 90px;
+    left: 30px;
+}
+
+
+.radio img {
+    position: absolute;
+    cursor: pointer;
+}
+
+
+.radio p {
+    position: absolute;
+    top: 80px;
+    font-size: 15px;
+    font-weight: light;
+}
+
+
+.brands{
+    position: absolute;
+    top: 250px;
+
+
+}
+.icon{
+    border: none;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    width: 6px;
+    padding: 6px;
+    border-radius: 16px;
+    margin-left: 20px;
+
+
+}
+
+
+.support{
+    position: absolute;
+    top: 100px;
+    left: 320px;
+    width: 200px;
+}
+   
+.support h4 {
+    font-size: 18px;
+    line-height: 1.3;
+
+
+}
+
+
+.support p {
+    font-size: 16px;
+    line-height: 2.2;
+}
+
+
+
+
+
+
+.company {
+    position: absolute;
+    top: 100px;
+    left: 580px;
+    width: 200px;
+
+
+}
+
+
+ 
+.company h4 {
+    font-size: 18px;
+    line-height: 1.3;
+
+
+}
+
+
+.company p {
+    font-size: 16px;
+    line-height: 2.2;
+}
+
+
+.product {
+    position: absolute;
+    top: 100px;
+    left: 860px;
+    width: 200px;
+}
+
+
+ 
+.product h4 {
+    font-size: 18px;
+    line-height: 1.3;
+
+
+}
+
+
+.product p {
+    font-size: 16px;
+    line-height: 2.2;
+}
+
+
+
+
+.compare{
+    position: absolute;
+    top: 100px;
+    left: 1100px;
+    width: 200px;
+}
+ 
+.compare h4 {
+    font-size: 18px;
+    line-height: 1.3;
+
+
+}
+
+
+.compare p {
+    font-size: 16px;
+    line-height: 2.2;
+}
+
+
+.terms {
+    position: absolute;
+    top: 400px;
+    left: 20px;
+}
+
+
+.terms p {
+    font-size: 13px;
+    line-height: 2.2;
+}
+
+
+.love {
+    position: absolute;
+    top: 400px;
+    left: 960px;
+}
+
+
+.love p {
+    font-size: 13px;
+    line-height: 2.2;
+}
+
+
+.avatar{
+    position: fixed;
+    top: 530px;
+    left: 1200px;
+}
+
+
+.smile {
+    border: none;
+    width:  150px;
+    right: 450px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #0ca872;
+    color: #ffffff;
+    border-radius: 38px;
+    cursor: pointer;
+}

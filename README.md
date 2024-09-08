@@ -1,0 +1,1 @@
+Created a news website with the help of CSS position
